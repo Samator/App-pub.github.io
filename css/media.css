@@ -1,4 +1,81 @@
+@media (min-width: 1520px) {
+    .container{
+        max-width: 95%;
+    }
+    .header{
+        height: auto;
+        margin-bottom: 50px;
+        background-size: contain;
+        background-position: center right;
 
+    }
+    .about-us{
+        height: auto;
+        background-size: contain;
+        background-position: left center;
+    }
+    .about-us__block{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1309px) {
+    .container{
+        max-width: 95%;
+    }
+    .header{
+        height: auto;
+        margin-bottom: 50px;
+        background-size: contain;
+        background-position: center right;
+
+    }
+    .about-us{
+        height: auto;
+        background-size: contain;
+        background-position: left center;
+    }
+    .about-us__block{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1270px) {
+    .submit-your-application{
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+    .navbar-item__link{
+        font-size: 18px;
+    }
+    .working__subtitle{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1169px) {
+    .header{
+        height: auto;
+        margin-bottom: 50px;
+        background-size: 70%;
+        background-position: center right -150px;
+
+    }
+    .navbar-item{
+        width: 100px;
+    }
+    .about-us{
+        background-size: 50%;
+    }
+    .header-hero__title,
+    .about-us__title,
+    .games__title,
+    .working__title,
+    .video-block__title,
+    .contacts-block__info-main-title{
+        font-size: 45px;
+    }
+}
+@media (max-width: 1023px) {
+
+}
 @media (max-width: 959px) {
     .container{
         max-width: 95vw;

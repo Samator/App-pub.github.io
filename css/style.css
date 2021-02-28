@@ -218,13 +218,13 @@ body {
     min-width: 90px;
     height: 90px;
 }
-.about-us__item:nth-child(3)::before{
+.about-us__item:nth-child(4)::before{
     background-image: url("../img/bg/about-us_img-1.svg");
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.about-us__item:nth-child(4)::before{
+.about-us__item:nth-child(5)::before{
     background-image: url("../img/bg/about-us_img-2.svg");
     background-position: center center;
     background-size: 50%;
